@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(233, 102, 145);
+  }
+
+.header{
+  color: rgb(19, 18, 18);
+  text-align: center;
+  margin-top: auto;
+  margin-left:500px;
+  margin-top:3%;
+  font-weight: bold;
+  
+
+}
+  
+.img-mulheres{
+  border-radius:50px;
+
+}
+
+.photogrid{
+  margin:5px;
+  width:100%
+  margin-left: 1000px;
+  padding-top:15px;
+  padding-left:270px;
+  font-weight: bold;
+  
+}
+
+.desc{
+  background-color: rgb(255, 149, 167);
+  text-align: center;
+  font-weight: bold;
+}
+
+td{
+  padding:7px;
+}
+
+
+
+
