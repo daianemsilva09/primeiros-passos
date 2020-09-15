@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(233, 102, 145);
+  }
+
+.container{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items:flex-end;
+  flex-wrap: wrap;
+
+ }
+
+ @media (min-width: 768px){
+   .container{
+     flex-direction: row;
+     justify-content: center;
+   }
+ }
+
+.photo{
+  width: 300px;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+  box-shadow: black;
+  justify-content: center;
+ }
+
+.photo p{
+ font-size: 16px;
+ padding-left: 10;
+}
+
+.photo img{
+  width=100%
+}
+
+.inicio{
+  display: flex;
+  width: 280px;
+  padding : 10px;
+  margin: 40px;
+  box-shadow:black;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.inicio img{
+  width=100%
+  border-radius:100px;
+}
+
+.inicio p{
+  padding-left: 10px;
+}
+
+.pagina{
+  display: flex;
+  width: 300px;
+  padding : 10px;
+  margin: 10px;
+  box-shadow: black;
+  justify-content: center;
+  
+ }
+
+ .pagina img{
+  width=100%
+  border-radius:100px;
+}
+
+.pagina p{
+  padding-left: 10px;
+}
+
+.img-mulheres {
+  border-radius: 100px;
+}
+ 
