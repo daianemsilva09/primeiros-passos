@@ -1,6 +1,10 @@
 
 ## Photo Grid | Exercício Aula 1 
 
+<<<<<<< HEAD
+=======
+O objetivo desse primeiro exercício é implementar a estrutura HTML das páginas e a customização inicial delas com CSS (vamos deixar a parte do posicionamento dos elementos com o Flexbox no exercício 2).
+>>>>>>> upstream/master
 
 ### Briefing 
 
@@ -27,6 +31,13 @@ e ao clicar nelas vamos acessar os detalhes de cada uma.
 
 - Crie uma folha de estilo CSS (`style.css`) e importe dentro da sua `index.html`; 
 
+<<<<<<< HEAD
+=======
+- Crie uma folha de estilo CSS (`details.css`) e importe dentro da sua `detalhes-numero.html`; 
+
+> **Observação:** Você não precisa criar várias folhas de estilo para as 6 páginas de detalhes. Basta criar 1 só e importar no HTML
+
+>>>>>>> upstream/master
 - Dentro do seu `style.css` adicione customizações a seu critério (cor de fundo, borda, tamanho de fonte, etc) e utilize as media queries para adicionar um estilo diferente quando o usuário estiver acessando um dispositivo com telas menores e maiores (lembre-se do mobile first!); 
 
 
