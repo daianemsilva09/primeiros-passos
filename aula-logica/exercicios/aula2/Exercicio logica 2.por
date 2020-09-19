@@ -3,9 +3,15 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero1, numero2, opcao
-	    
-	    	escreva ("Digite o primeiro numero ?")
+		inteiro numero1, numero2, opcao, cont
+		caracter parar
+		parar = 's'  
+		cont =1
+  
+        enquanto (parar != 'n')  
+        {  
+        	cont = cont+1 
+        	escreva ("Digite o primeiro numero ?")
 	    	leia (numero1)
 	    	escreva ("Digite o segundo numero  ?")
 		leia(numero2)
@@ -27,20 +33,27 @@ programa
 			
 			caso contrario:
 			escreva ("Número diferente das opções")
-			
+		}
+		 escreva ("\ndeseja parar o laço? (S/N)")  
+            leia (parar)  	
+		}
+		 cont= cont-1
+           escreva("Você fez esse total de operações   ", cont)
+        }  
+		   
+		
+		
 		}
 
-		
 
-		
-	}
-}
+	
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 688; 
+ * @POSICAO-CURSOR = 807; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
